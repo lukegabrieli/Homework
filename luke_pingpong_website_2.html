@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="luke_pingpong_game_2.css">
+</head>
+<body>
+
+<div id="enterBox">
+  <h1 class="siteTitle">Ping Pong Playoffs</h1>
+  <h2 class="siteSubTitle">The Ultimate Match-Up</h2>
+  <div id="playerInfoDiv">
+    <p id="playerInfo">Enter your <strong>name</strong>, <strong>skill level</strong>, and <strong>speed</strong> to play!</p>
+    <input type="text" name="playername" id="getName" placeholder="Name: First and Last"/>
+    <select name="skill" id="getSkill">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <select name="speed" id="getSpeed">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <button type="button" id="enter">Enter!</button>
+  </div>
+</div>
+
+<div id="playBox">
+<header>
+  <h1 class="siteTitle">Ping Pong Playoffs</h1>
+  <h2 class="siteSubTitle">The Ultimate Match-Up</h2>
+</header>
+<main>
+  <section class="players">
+    <h1>Player 1</h1>
+    <img id="userImageEnter" src="http://lukegabrieli.com/youpoint.jpg">
+    <ul>
+      <li id="userNameEnter">Name: NAME</li>
+      <li id="userSkillEnter">Skill Level: SKILL</li>
+      <li id="userSpeedEnter">Speed Level: SPEED</li>
+    </ul>
+  </section>
+  <section class="players">
+    <h1>Player 2</h1>
+    <img src="http://aun-tv.com/wp-content/uploads/2014/08/kimjungunUniform.jpg">
+    <ul>
+      <li>Name: Kim Jong Un</li>
+      <li>Skill Level: 7</li>
+      <li>Speed Level: 4</li>
+    </ul>
+  </section>
+  <button type="button" id="playGame">Play!</button>
+</main>
+</div>
+
+<div id="resultsBox">
+  <h1 class="siteTitle">Ping Pong Playoffs</h1>
+  <h2 class="siteSubTitle">The Ultimate Match-Up</h2>
+  <div id="resultsInfo">
+    <strong><p id="score">Score:</p></strong>
+    <p id="playerScore">PLAYER SCORE</p>
+    <p id="kimScore">KIM JONG UN SCORE</p>
+    <p id="resultsHTML">Results!</p>
+    <button type="button" id="replay">Replay!</button>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="luke_pingpong_game_2.js"></script>
+
+</body>
+</html>

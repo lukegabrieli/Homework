@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'freshman';
+  src: url('http://lukegabrieli.com/public_html/Freshman.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background: url(http://lukegabrieli.com/pingPong.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+#enterBox{
+  width: 800px;
+  height: 600px;
+  background-color: rgba(255,255,255,.9);
+  border: 2px solid black;
+  text-align: center;
+  display: block;
+  margin: auto;
+  z-index: 100;
+}
+
+main {
+  margin-top: -20px;
+}
+
+img {
+  width:200px;
+  height:260px;
+  opacity: 1;
+  margin-top: -15px;
+}
+
+#playBox{
+  width: 800px;
+  height: 600px;
+  background-color: rgba(255,255,255,.9);
+  border: 2px solid black;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+#resultsBox{
+  width: 800px;
+  height: 600px;
+  background-color: rgba(255,255,255,.9);
+  border: 2px solid black;
+  text-align: center;
+  display: block;
+  margin: auto;
+  z-index: 100;
+}
+
+.players {
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: -40px;
+}
+
+#playgame {
+  margin-top: -30px;
+}
+
+button{
+  font-size: 1em;
+  display: block;
+  color: white;
+  background-color: red;
+  width: 150px;
+  margin: 30px auto;
+  transition: all 0.5s;
+}
+button:hover{
+  color:black;
+}
+
+.siteTitle {
+  font-family: 'freshman';
+  color: navy;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: red;
+  font-size: 4em;
+  margin-top: 25px;
+}
+
+.siteSubTitle {
+  font-family: 'freshman';
+  color: black;
+  font-size: 2em;
+  margin-top: -20px;
+}
+
+#playerInfoDiv {
+  margin-top: 15%;
+}
+
+#playerInfo {
+  font-size: 1.4em;
+}
+
+#score{
+  font-size: 2em;
+}
+
+#kimScore {
+  font-size: 1.7em;
+}
+
+#playerScore {
+  font-size: 1.7em;
+}
+
+#resultsHTML {
+  font-size: 1.4em;
+}
